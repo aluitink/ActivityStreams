@@ -6,8 +6,13 @@ namespace Rayven.ActivityStreams.Links;
 
 public class Link : ObjectOrLink, ILink
 {
-    public Link() => Type = new List<string>() { "Link" };
-
+    public Link()
+    {
+        Type = new List<string>() { "Link" };
+        // Most usages of Link will what pure Href value as the seralized output
+        // Clear base class default value
+        JsonLDContext = null;
+    }
     /// <summary>
     /// On a Link, specifies a hint as to the rendering height in device-independent pixels of the linked resource.
     /// </summary>
