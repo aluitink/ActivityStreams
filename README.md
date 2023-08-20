@@ -36,6 +36,6 @@ We have chosen that it should also implement the properties that are specific to
 - Support for serializing
 
 ## Related repositories
-This is used in the following repositories.
+[KristofferStrube/ActivityStream](https://github.com/KristofferStrube/ActivityStream) is used in the following repositories.
 - [KristofferStrube/ActivityPubBotDotNet](https://github.com/KristofferStrube/ActivityPubBotDotNet): An implementation of a ActivityPub bot that can communicate with Mastodon servers.
 - [Blazor.FileSystem Search Mastodon Sample](https://kristofferstrube.github.io/Blazor.FileSystem/SearchMastodon): A sample of using the ActivityStreams classes in Blazor to Deserialize the responses from an API.
